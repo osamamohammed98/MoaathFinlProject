@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   android:background="@color/purple_500"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- things to scroll -->
+
+
+            <LinearLayout
+                android:id="@+id/ln_courseOne"
+                android:background="@color/white"
+                android:layout_marginBottom="20dp"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="20dp"
+                android:weightSum="5"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ln_courseOneIV"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_weight="0.5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/app_logo"
+                    />
+
+                <TextView
+                    android:id="@+id/ln_courseOneTV"
+                    android:text="@string/lorm"
+                    android:maxLines="7"
+                    android:minLines="7"
+                    android:layout_weight="4.5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ln_courseTwo"
+                android:background="@color/white"
+                android:layout_marginBottom="20dp"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="20dp"
+                android:weightSum="5"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ln_courseTwoIV"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_weight="0.5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/app_logo"
+
+                    />
+
+                <TextView
+                    android:id="@+id/ln_courseTwoTV"
+                    android:text="@string/lorm"
+                    android:maxLines="7"
+                    android:minLines="7"
+                    android:layout_weight="4.5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ln_courseThree"
+                android:background="@color/white"
+                android:layout_marginBottom="20dp"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="20dp"
+                android:weightSum="5"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ln_courseThreeIV"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_weight="0.5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/app_logo"
+                    />
+
+                <TextView
+                    android:id="@+id/ln_courseThreeTV"
+                    android:text="@string/lorm"
+                    android:maxLines="7"
+                    android:minLines="7"
+                    android:layout_weight="4.5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ln_courseFour"
+                android:background="@color/white"
+                android:layout_marginBottom="20dp"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="20dp"
+                android:weightSum="5"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ln_courseFourIV"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_weight="0.5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/app_logo"
+                    />
+
+                <TextView
+                    android:id="@+id/ln_courseFourTV"
+                    android:text="@string/lorm"
+                    android:maxLines="7"
+                    android:minLines="7"
+                    android:layout_weight="4.5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ln_courseFive"
+                android:background="@color/white"
+                android:layout_marginBottom="20dp"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="20dp"
+                android:weightSum="5"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ln_courseFiveIV"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_weight="0.5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/app_logo"
+                    />
+
+                <TextView
+                    android:id="@+id/ln_courseFiveTV"
+                    android:text="@string/lorm"
+                    android:maxLines="7"
+                    android:minLines="7"
+                    android:layout_weight="4.5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ln_courseSix"
+                android:background="@color/white"
+                android:layout_marginBottom="20dp"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="20dp"
+                android:weightSum="5"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ln_courseSixIV"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginEnd="12dp"
+                    android:layout_weight="0.5"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/app_logo"
+                    />
+
+                <TextView
+                    android:id="@+id/ln_courseSixTV"
+                    android:text="@string/lorm"
+                    android:maxLines="7"
+                    android:minLines="7"
+                    android:layout_weight="4.5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+</ScrollView>
